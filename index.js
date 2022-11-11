@@ -4,11 +4,10 @@ function isNumberOddOrEven(val) {
   return val % 2 === 0;
 }
 
-const showNumberIsEvenOrOdd = function (val) {
+const getNumberIsEvenOrOdd = function (val) {
   if (isNumberOddOrEven(val)) {
-    console.log("even");
-  } else {
-    console.log("odd");
-  }
+    return "even";
+  } 
+    return 'odd';
 };
 
